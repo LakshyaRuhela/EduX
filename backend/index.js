@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://edux-8i1r.onrender.com",
     credentials: true,
   }),
 );
